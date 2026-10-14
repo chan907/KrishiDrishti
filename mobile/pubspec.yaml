@@ -1,0 +1,30 @@
+name: krishidrishti
+description: KrishiDrishti - AI-assisted crop disease detection (online + offline).
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  image_picker: ^1.0.7
+  shared_preferences: ^2.2.2
+  image: ^4.1.7
+  tflite_flutter: ^0.11.0
+  flutter_tts: ^4.0.2
+  path_provider: ^2.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/i18n/
+    - assets/kb/
+    - assets/model/

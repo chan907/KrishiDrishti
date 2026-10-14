@@ -1,0 +1,14 @@
+# Maps folder names of a FIELD-CONDITION dataset (e.g. PlantDoc) -> KrishiDrishti class ids.
+# Run `ls` on the downloaded dataset and EDIT the left-hand names to match what you actually have.
+# Leave out folders you cannot map with confidence - a wrong mapping silently corrupts your evaluation.
+# Class ids on the right must exist in ml/data/class_names.json.
+mapping:
+  "Tomato Early blight leaf": Tomato___Early_blight
+  "Tomato leaf late blight": Tomato___Late_blight
+  "Tomato leaf": Tomato___healthy
+  "Tomato Septoria leaf spot": Tomato___Septoria_leaf_spot
+  "Tomato mold leaf": Tomato___Leaf_Mold
+  "Potato leaf early blight": Potato___Early_blight
+  "Potato leaf late blight": Potato___Late_blight
+  "Corn rust leaf": Corn_maize___Common_rust
+  "Corn Gray leaf spot": Corn_maize___Cercospora_leaf_spot_Gray_leaf_spot

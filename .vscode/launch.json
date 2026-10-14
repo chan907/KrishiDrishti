@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "FastAPI backend (reload)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": ["app.main:app", "--reload", "--host", "0.0.0.0", "--port", "8000"],
+      "cwd": "${workspaceFolder}/backend",
+      "justMyCode": true
+    },
+    {
+      "name": "Train MobileNetV3-Small",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "ml.src.training.train",
+      "args": ["--arch", "mobilenetv3_small", "--run-name", "mobilenetv3s-v1"],
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

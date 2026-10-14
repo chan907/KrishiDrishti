@@ -1,0 +1,687 @@
+{
+ "kb_version": "1.0.0",
+ "review_status": "DRAFT - English content is general and non-prescriptive; Hindi/Marathi translations were machine-assisted and MUST be reviewed by an agricultural expert / native speaker before public release.",
+ "crops": {
+  "Tomato": {
+   "name": {
+    "en": "Tomato",
+    "hi": "टमाटर",
+    "mr": "टोमॅटो"
+   }
+  },
+  "Potato": {
+   "name": {
+    "en": "Potato",
+    "hi": "आलू",
+    "mr": "बटाटा"
+   }
+  },
+  "Corn_maize": {
+   "name": {
+    "en": "Corn (maize)",
+    "hi": "मक्का",
+    "mr": "मका"
+   }
+  }
+ },
+ "categories": {
+  "fungal": {
+   "prevention": {
+    "en": [
+     "Use healthy, certified seed or seedlings.",
+     "Rotate crops and remove infected residue from the previous crop.",
+     "Give plants enough spacing for air movement.",
+     "Water at the base where possible and avoid long leaf wetness."
+    ],
+    "hi": [
+     "स्वस्थ और प्रमाणित बीज/पौधों का उपयोग करें।",
+     "फसल चक्र अपनाएँ और पिछली फसल के संक्रमित अवशेष हटाएँ।",
+     "हवा के संचार के लिए पौधों के बीच पर्याप्त दूरी रखें।",
+     "जहाँ संभव हो जड़ के पास सिंचाई करें और पत्तियों को देर तक गीला न रहने दें।"
+    ],
+    "mr": [
+     "निरोगी आणि प्रमाणित बियाणे/रोपे वापरा.",
+     "पीक फेरपालट करा आणि मागील पिकाचे संक्रमित अवशेष काढून टाका.",
+     "हवा खेळती राहावी म्हणून झाडांमध्ये पुरेसे अंतर ठेवा.",
+     "शक्य तेथे मुळाजवळ पाणी द्या आणि पाने जास्त वेळ ओली राहू देऊ नका."
+    ]
+   },
+   "general_actions": {
+    "en": [
+     "Remove heavily affected leaves or plant debris where appropriate and dispose of them away from the field.",
+     "Improve airflow around plants.",
+     "Avoid unnecessary leaf wetness.",
+     "Monitor nearby plants for similar symptoms.",
+     "For any chemical treatment, ask your local agriculture extension officer or Krishi Vigyan Kendra for options approved in your region."
+    ],
+    "hi": [
+     "अधिक प्रभावित पत्तियाँ या अवशेष उचित रूप से हटाकर खेत से दूर नष्ट करें।",
+     "पौधों के आसपास हवा का संचार बेहतर करें।",
+     "पत्तियों पर अनावश्यक नमी से बचें।",
+     "आसपास के पौधों में समान लक्षणों की निगरानी करें।",
+     "किसी भी रासायनिक उपचार के लिए अपने क्षेत्र के कृषि अधिकारी या कृषि विज्ञान केंद्र से मान्य विकल्पों की जानकारी लें।"
+    ],
+    "mr": [
+     "जास्त बाधित पाने किंवा अवशेष योग्य पद्धतीने काढून शेतापासून दूर नष्ट करा.",
+     "झाडांभोवती हवा खेळती राहील याची काळजी घ्या.",
+     "पानांवर अनावश्यक ओलावा टाळा.",
+     "आजूबाजूच्या झाडांवर अशीच लक्षणे दिसतात का ते तपासत राहा.",
+     "कोणत्याही रासायनिक उपचारासाठी आपल्या भागातील कृषी अधिकारी किंवा कृषी विज्ञान केंद्राकडून मान्य पर्याय विचारा."
+    ]
+   }
+  },
+  "bacterial": {
+   "prevention": {
+    "en": [
+     "Use disease-free seed and seedlings.",
+     "Avoid working in the field when plants are wet.",
+     "Clean tools between plants and fields.",
+     "Rotate with non-host crops."
+    ],
+    "hi": [
+     "रोगमुक्त बीज और पौधों का उपयोग करें।",
+     "पौधे गीले होने पर खेत में काम करने से बचें।",
+     "औज़ारों को एक पौधे/खेत से दूसरे में जाने से पहले साफ करें।",
+     "अन-मेज़बान फसलों के साथ फसल चक्र अपनाएँ।"
+    ],
+    "mr": [
+     "रोगमुक्त बियाणे आणि रोपे वापरा.",
+     "झाडे ओली असताना शेतात काम करणे टाळा.",
+     "अवजारे एका झाडाकडून/शेताकडून दुसरीकडे जाण्यापूर्वी स्वच्छ करा.",
+     "यजमान नसलेल्या पिकांसोबत फेरपालट करा."
+    ]
+   },
+   "general_actions": {
+    "en": [
+     "Remove and dispose of badly affected leaves or plants away from the field.",
+     "Avoid overhead irrigation and handling wet plants.",
+     "Disinfect tools.",
+     "Monitor neighbouring plants and ask a local agriculture expert about regionally approved options."
+    ],
+    "hi": [
+     "बुरी तरह प्रभावित पत्तियाँ या पौधे खेत से दूर नष्ट करें।",
+     "ऊपर से सिंचाई और गीले पौधों को छूने से बचें।",
+     "औज़ारों को कीटाणुमुक्त करें।",
+     "आसपास के पौधों की निगरानी करें और क्षेत्र के मान्य विकल्पों के लिए कृषि विशेषज्ञ से पूछें।"
+    ],
+    "mr": [
+     "जास्त बाधित पाने किंवा झाडे शेतापासून दूर नष्ट करा.",
+     "वरून पाणी देणे आणि ओल्या झाडांना हाताळणे टाळा.",
+     "अवजारे निर्जंतुक करा.",
+     "शेजारील झाडांवर लक्ष ठेवा आणि आपल्या भागात मान्य पर्यायांसाठी कृषी तज्ज्ञांना विचारा."
+    ]
+   }
+  },
+  "viral": {
+   "prevention": {
+    "en": [
+     "Use virus-free seedlings.",
+     "Control weeds that can host the virus or its insect carriers.",
+     "Keep tools and hands clean when handling plants.",
+     "Watch for insect vectors such as whiteflies."
+    ],
+    "hi": [
+     "विषाणु-मुक्त पौधों का उपयोग करें।",
+     "ऐसे खरपतवार नियंत्रित करें जो विषाणु या उसके वाहक कीटों को आश्रय दे सकते हैं।",
+     "पौधों को छूते समय औज़ार और हाथ साफ रखें।",
+     "सफेद मक्खी जैसे वाहक कीटों पर नज़र रखें।"
+    ],
+    "mr": [
+     "विषाणूमुक्त रोपे वापरा.",
+     "विषाणू किंवा त्याचे वाहक कीटक आश्रय घेतात असे तण नियंत्रित करा.",
+     "झाडे हाताळताना हात आणि अवजारे स्वच्छ ठेवा.",
+     "पांढरी माशी यांसारख्या वाहक कीटकांवर लक्ष ठेवा."
+    ]
+   },
+   "general_actions": {
+    "en": [
+     "Plant viruses have no cure once a plant is infected; remove severely affected plants early and dispose of them away from the field.",
+     "Reduce insect vectors and weeds around the field.",
+     "Monitor nearby plants.",
+     "Ask a local agriculture expert for regionally recommended vector-management practices."
+    ],
+    "hi": [
+     "पौधे में विषाणु संक्रमण का इलाज नहीं होता; अत्यधिक प्रभावित पौधों को जल्दी हटाकर खेत से दूर नष्ट करें।",
+     "खेत के आसपास वाहक कीट और खरपतवार कम करें।",
+     "आसपास के पौधों की निगरानी करें।",
+     "क्षेत्र के अनुसार अनुशंसित वाहक-प्रबंधन उपायों के लिए कृषि विशेषज्ञ से पूछें।"
+    ],
+    "mr": [
+     "झाडाला विषाणू संसर्ग झाल्यास त्यावर इलाज नसतो; जास्त बाधित झाडे लवकर काढून शेतापासून दूर नष्ट करा.",
+     "शेताभोवतीचे वाहक कीटक आणि तण कमी करा.",
+     "आजूबाजूच्या झाडांवर लक्ष ठेवा.",
+     "आपल्या भागासाठी शिफारस केलेल्या वाहक-व्यवस्थापन पद्धतींबाबत कृषी तज्ज्ञांना विचारा."
+    ]
+   }
+  },
+  "pest": {
+   "prevention": {
+    "en": [
+     "Inspect the underside of leaves regularly.",
+     "Avoid prolonged dry, dusty, water-stressed conditions.",
+     "Keep field edges and weeds under control.",
+     "Protect natural enemies of pests where possible."
+    ],
+    "hi": [
+     "पत्तियों की निचली सतह की नियमित जाँच करें।",
+     "लंबे समय तक सूखी, धूल भरी और पानी की कमी वाली स्थिति से बचें।",
+     "खेत की मेड़ों और खरपतवार को नियंत्रित रखें।",
+     "जहाँ संभव हो कीटों के प्राकृतिक शत्रुओं की रक्षा करें।"
+    ],
+    "mr": [
+     "पानांच्या खालच्या बाजूची नियमित तपासणी करा.",
+     "दीर्घकाळ कोरडी, धुळीची आणि पाण्याचा ताण असलेली स्थिती टाळा.",
+     "बांध आणि तण नियंत्रणात ठेवा.",
+     "शक्य तेथे किडींच्या नैसर्गिक शत्रूंचे संरक्षण करा."
+    ]
+   },
+   "general_actions": {
+    "en": [
+     "Confirm the pest by looking at the underside of leaves.",
+     "Remove heavily infested leaves where appropriate.",
+     "Keep plants adequately watered and reduce dust.",
+     "Ask a local agriculture expert about regionally approved pest-management options."
+    ],
+    "hi": [
+     "पत्तियों की निचली सतह देखकर कीट की पुष्टि करें।",
+     "अत्यधिक प्रभावित पत्तियाँ उचित रूप से हटाएँ।",
+     "पौधों को पर्याप्त पानी दें और धूल कम करें।",
+     "क्षेत्र के मान्य कीट-प्रबंधन विकल्पों के लिए कृषि विशेषज्ञ से पूछें।"
+    ],
+    "mr": [
+     "पानांच्या खालची बाजू पाहून किडीची खात्री करा.",
+     "जास्त प्रादुर्भाव झालेली पाने योग्य पद्धतीने काढा.",
+     "झाडांना पुरेसे पाणी द्या आणि धूळ कमी करा.",
+     "आपल्या भागात मान्य कीड-व्यवस्थापन पर्यायांसाठी कृषी तज्ज्ञांना विचारा."
+    ]
+   }
+  },
+  "healthy": {
+   "prevention": {
+    "en": [
+     "Keep scouting plants regularly.",
+     "Maintain good spacing, drainage and balanced nutrition.",
+     "Use clean tools and healthy planting material."
+    ],
+    "hi": [
+     "पौधों की नियमित निगरानी करते रहें।",
+     "उचित दूरी, जल निकासी और संतुलित पोषण बनाए रखें।",
+     "साफ औज़ार और स्वस्थ रोपण सामग्री का उपयोग करें।"
+    ],
+    "mr": [
+     "झाडांची नियमित पाहणी करत राहा.",
+     "योग्य अंतर, निचरा आणि संतुलित पोषण राखा.",
+     "स्वच्छ अवजारे आणि निरोगी लागवड साहित्य वापरा."
+    ]
+   },
+   "general_actions": {
+    "en": [
+     "No disease was detected in this leaf by the model. Continue regular monitoring - the model can miss early or unusual symptoms.",
+     "If you still see symptoms on plants, consult a local agriculture expert."
+    ],
+    "hi": [
+     "मॉडल को इस पत्ती में कोई रोग नहीं मिला। नियमित निगरानी जारी रखें - मॉडल शुरुआती या असामान्य लक्षण चूक सकता है।",
+     "यदि फिर भी लक्षण दिखें तो स्थानीय कृषि विशेषज्ञ से सलाह लें।"
+    ],
+    "mr": [
+     "मॉडेलला या पानावर रोग आढळला नाही. नियमित पाहणी सुरू ठेवा - मॉडेल सुरुवातीची किंवा असामान्य लक्षणे चुकवू शकते.",
+     "तरीही लक्षणे दिसत असल्यास स्थानिक कृषी तज्ज्ञांचा सल्ला घ्या."
+    ]
+   }
+  }
+ },
+ "diseases": {
+  "Tomato___healthy": {
+   "category": "healthy",
+   "cause": "-",
+   "name": {
+    "en": "Healthy",
+    "hi": "स्वस्थ",
+    "mr": "निरोगी"
+   },
+   "description": {
+    "en": "The leaf shows no visible disease symptoms to the model.",
+    "hi": "मॉडल को पत्ती में कोई दृश्य रोग लक्षण नहीं दिखे।",
+    "mr": "मॉडेलला पानात कोणतीही दृश्य रोगलक्षणे दिसली नाहीत."
+   },
+   "symptoms": {
+    "en": "Uniform green colour, no spots.",
+    "hi": "एक समान हरा रंग, कोई धब्बे नहीं।",
+    "mr": "एकसमान हिरवा रंग, डाग नाहीत."
+   },
+   "sources": [
+    {
+     "title": "Compiled from general plant-pathology extension knowledge; REVIEW against a regional agricultural university / ICAR / state agriculture department source before release",
+     "status": "needs_expert_review"
+    }
+   ]
+  },
+  "Potato___healthy": {
+   "category": "healthy",
+   "cause": "-",
+   "name": {
+    "en": "Healthy",
+    "hi": "स्वस्थ",
+    "mr": "निरोगी"
+   },
+   "description": {
+    "en": "The leaf shows no visible disease symptoms to the model.",
+    "hi": "मॉडल को पत्ती में कोई दृश्य रोग लक्षण नहीं दिखे।",
+    "mr": "मॉडेलला पानात कोणतीही दृश्य रोगलक्षणे दिसली नाहीत."
+   },
+   "symptoms": {
+    "en": "Uniform green colour, no spots.",
+    "hi": "एक समान हरा रंग, कोई धब्बे नहीं।",
+    "mr": "एकसमान हिरवा रंग, डाग नाहीत."
+   },
+   "sources": [
+    {
+     "title": "Compiled from general plant-pathology extension knowledge; REVIEW against a regional agricultural university / ICAR / state agriculture department source before release",
+     "status": "needs_expert_review"
+    }
+   ]
+  },
+  "Corn_maize___healthy": {
+   "category": "healthy",
+   "cause": "-",
+   "name": {
+    "en": "Healthy",
+    "hi": "स्वस्थ",
+    "mr": "निरोगी"
+   },
+   "description": {
+    "en": "The leaf shows no visible disease symptoms to the model.",
+    "hi": "मॉडल को पत्ती में कोई दृश्य रोग लक्षण नहीं दिखे।",
+    "mr": "मॉडेलला पानात कोणतीही दृश्य रोगलक्षणे दिसली नाहीत."
+   },
+   "symptoms": {
+    "en": "Uniform green colour, no lesions.",
+    "hi": "एक समान हरा रंग, कोई घाव नहीं।",
+    "mr": "एकसमान हिरवा रंग, जखमा नाहीत."
+   },
+   "sources": [
+    {
+     "title": "Compiled from general plant-pathology extension knowledge; REVIEW against a regional agricultural university / ICAR / state agriculture department source before release",
+     "status": "needs_expert_review"
+    }
+   ]
+  },
+  "Tomato___Early_blight": {
+   "category": "fungal",
+   "cause": "Fungus (Alternaria solani)",
+   "name": {
+    "en": "Early Blight",
+    "hi": "अगेती झुलसा",
+    "mr": "लवकर येणारा करपा"
+   },
+   "description": {
+    "en": "A fungal leaf disease that causes dark spots, often on older leaves first.",
+    "hi": "एक फफूंद जनित पत्ती रोग जिसमें गहरे धब्बे बनते हैं, अक्सर पहले पुरानी पत्तियों पर।",
+    "mr": "बुरशीजन्य पानांचा रोग; गडद डाग पडतात, बहुधा आधी जुन्या पानांवर."
+   },
+   "symptoms": {
+    "en": "Brown spots with concentric rings (target-like), yellowing around spots.",
+    "hi": "भूरे धब्बे जिनमें गोलाकार छल्ले (निशाने जैसे) होते हैं, धब्बों के आसपास पीलापन।",
+    "mr": "तपकिरी डाग, त्यात वर्तुळाकार रिंग (नेमबाजीच्या लक्ष्यासारखे), डागांभोवती पिवळेपणा."
+   },
+   "sources": [
+    {
+     "title": "Compiled from general plant-pathology extension knowledge; REVIEW against a regional agricultural university / ICAR / state agriculture department source before release",
+     "status": "needs_expert_review"
+    }
+   ]
+  },
+  "Potato___Early_blight": {
+   "category": "fungal",
+   "cause": "Fungus (Alternaria solani)",
+   "name": {
+    "en": "Early Blight",
+    "hi": "अगेती झुलसा",
+    "mr": "लवकर येणारा करपा"
+   },
+   "description": {
+    "en": "A fungal leaf disease that causes dark spots, often on older leaves first.",
+    "hi": "एक फफूंद जनित पत्ती रोग जिसमें गहरे धब्बे बनते हैं, अक्सर पहले पुरानी पत्तियों पर।",
+    "mr": "बुरशीजन्य पानांचा रोग; गडद डाग पडतात, बहुधा आधी जुन्या पानांवर."
+   },
+   "symptoms": {
+    "en": "Dark brown spots with ring patterns, yellow halo, spots may merge.",
+    "hi": "गोलाकार पैटर्न वाले गहरे भूरे धब्बे, पीला घेरा, धब्बे आपस में जुड़ सकते हैं।",
+    "mr": "वर्तुळाकार नक्षी असलेले गडद तपकिरी डाग, पिवळे वलय, डाग एकमेकांत मिसळू शकतात."
+   },
+   "sources": [
+    {
+     "title": "Compiled from general plant-pathology extension knowledge; REVIEW against a regional agricultural university / ICAR / state agriculture department source before release",
+     "status": "needs_expert_review"
+    }
+   ]
+  },
+  "Tomato___Late_blight": {
+   "category": "fungal",
+   "cause": "Water mould (Phytophthora infestans) - fungus-like organism",
+   "name": {
+    "en": "Late Blight",
+    "hi": "पछेती झुलसा",
+    "mr": "उशिरा येणारा करपा"
+   },
+   "description": {
+    "en": "A fast-spreading disease favoured by cool, wet weather that can destroy foliage quickly.",
+    "hi": "ठंडे और नम मौसम में तेज़ी से फैलने वाला रोग जो पत्तियों को जल्दी नष्ट कर सकता है।",
+    "mr": "थंड व दमट हवामानात वेगाने पसरणारा रोग; पाने लवकर नष्ट होऊ शकतात."
+   },
+   "symptoms": {
+    "en": "Large water-soaked, greasy-looking grey-green to brown patches; white fuzzy growth underneath in humid weather.",
+    "hi": "बड़े, पानी से भीगे जैसे धब्बे जो भूरे पड़ते हैं; नम मौसम में निचली सतह पर सफेद रोएँ।",
+    "mr": "मोठे पाणथळ डाग जे तपकिरी होतात; दमट हवामानात खालच्या बाजूस पांढरी बुरशी."
+   },
+   "sources": [
+    {
+     "title": "Compiled from general plant-pathology extension knowledge; REVIEW against a regional agricultural university / ICAR / state agriculture department source before release",
+     "status": "needs_expert_review"
+    }
+   ]
+  },
+  "Potato___Late_blight": {
+   "category": "fungal",
+   "cause": "Water mould (Phytophthora infestans) - fungus-like organism",
+   "name": {
+    "en": "Late Blight",
+    "hi": "पछेती झुलसा",
+    "mr": "उशिरा येणारा करपा"
+   },
+   "description": {
+    "en": "A fast-spreading disease favoured by cool, wet weather that can destroy foliage and tubers.",
+    "hi": "ठंडे और नम मौसम में तेज़ी से फैलने वाला रोग जो पत्तियों और कंदों को नष्ट कर सकता है।",
+    "mr": "थंड व दमट हवामानात वेगाने पसरणारा रोग; पाने आणि कंद नष्ट होऊ शकतात."
+   },
+   "symptoms": {
+    "en": "Water-soaked dark patches on leaves that expand quickly; white growth on underside in humid conditions.",
+    "hi": "पत्तियों पर पानी से भीगे गहरे धब्बे जो तेज़ी से बढ़ते हैं; नमी में निचली सतह पर सफेद वृद्धि।",
+    "mr": "पानांवर पाणथळ गडद डाग जे वेगाने वाढतात; दमट स्थितीत खालच्या बाजूस पांढरी वाढ."
+   },
+   "sources": [
+    {
+     "title": "Compiled from general plant-pathology extension knowledge; REVIEW against a regional agricultural university / ICAR / state agriculture department source before release",
+     "status": "needs_expert_review"
+    }
+   ]
+  },
+  "Tomato___Leaf_Mold": {
+   "category": "fungal",
+   "cause": "Fungus (Passalora fulva)",
+   "name": {
+    "en": "Leaf Mold",
+    "hi": "पत्ती फफूंद",
+    "mr": "पानावरील बुरशी (लीफ मोल्ड)"
+   },
+   "description": {
+    "en": "A fungal disease common in humid, poorly ventilated conditions such as greenhouses.",
+    "hi": "नम और कम हवादार स्थितियों (जैसे ग्रीनहाउस) में आम फफूंद रोग।",
+    "mr": "दमट आणि कमी हवेशीर परिस्थितीत (उदा. ग्रीनहाउस) आढळणारा बुरशीजन्य रोग."
+   },
+   "symptoms": {
+    "en": "Pale green-yellow spots on upper leaf surface with olive-brown mould underneath.",
+    "hi": "पत्ती की ऊपरी सतह पर हल्के हरे-पीले धब्बे और निचली सतह पर जैतूनी-भूरी फफूंद।",
+    "mr": "पानाच्या वरच्या बाजूस फिकट हिरवट-पिवळे डाग आणि खाली ऑलिव्ह-तपकिरी बुरशी."
+   },
+   "sources": [
+    {
+     "title": "Compiled from general plant-pathology extension knowledge; REVIEW against a regional agricultural university / ICAR / state agriculture department source before release",
+     "status": "needs_expert_review"
+    }
+   ]
+  },
+  "Tomato___Septoria_leaf_spot": {
+   "category": "fungal",
+   "cause": "Fungus (Septoria lycopersici)",
+   "name": {
+    "en": "Septoria Leaf Spot",
+    "hi": "सेप्टोरिया पत्ती धब्बा",
+    "mr": "सेप्टोरिया पानावरील ठिपके"
+   },
+   "description": {
+    "en": "A fungal disease producing many small spots, usually starting on lower leaves.",
+    "hi": "फफूंद जनित रोग जिसमें कई छोटे धब्बे बनते हैं, आमतौर पर निचली पत्तियों से शुरू।",
+    "mr": "बुरशीजन्य रोग; अनेक लहान ठिपके पडतात, साधारणपणे खालच्या पानांपासून सुरू."
+   },
+   "symptoms": {
+    "en": "Many small round spots with grey-white centres and dark edges.",
+    "hi": "कई छोटे गोल धब्बे जिनका केंद्र धूसर-सफेद और किनारा गहरा होता है।",
+    "mr": "अनेक लहान गोल ठिपके; मध्यभाग राखाडी-पांढरा आणि कडा गडद."
+   },
+   "sources": [
+    {
+     "title": "Compiled from general plant-pathology extension knowledge; REVIEW against a regional agricultural university / ICAR / state agriculture department source before release",
+     "status": "needs_expert_review"
+    }
+   ]
+  },
+  "Tomato___Bacterial_spot": {
+   "category": "bacterial",
+   "cause": "Bacteria (Xanthomonas species)",
+   "name": {
+    "en": "Bacterial Spot",
+    "hi": "जीवाणु धब्बा",
+    "mr": "जिवाणूजन्य ठिपके"
+   },
+   "description": {
+    "en": "A bacterial disease spread by splashing water, causing small spots on leaves and fruit.",
+    "hi": "पानी की छींटों से फैलने वाला जीवाणु रोग जो पत्तियों और फलों पर छोटे धब्बे बनाता है।",
+    "mr": "पाण्याच्या फवाऱ्यांनी पसरणारा जिवाणूजन्य रोग; पाने व फळांवर लहान ठिपके."
+   },
+   "symptoms": {
+    "en": "Small dark, water-soaked spots that turn brown; leaves may look ragged.",
+    "hi": "छोटे गहरे, पानी से भीगे धब्बे जो भूरे हो जाते हैं; पत्तियाँ फटी-सी दिख सकती हैं।",
+    "mr": "लहान गडद पाणथळ ठिपके जे तपकिरी होतात; पाने फाटल्यासारखी दिसू शकतात."
+   },
+   "sources": [
+    {
+     "title": "Compiled from general plant-pathology extension knowledge; REVIEW against a regional agricultural university / ICAR / state agriculture department source before release",
+     "status": "needs_expert_review"
+    }
+   ]
+  },
+  "Tomato___Target_Spot": {
+   "category": "fungal",
+   "cause": "Fungus (Corynespora cassiicola)",
+   "name": {
+    "en": "Target Spot",
+    "hi": "टारगेट स्पॉट",
+    "mr": "टार्गेट स्पॉट"
+   },
+   "description": {
+    "en": "A fungal disease causing spots with ring patterns on leaves and sometimes fruit.",
+    "hi": "फफूंद जनित रोग जिसमें पत्तियों और कभी-कभी फलों पर छल्लेदार धब्बे बनते हैं।",
+    "mr": "बुरशीजन्य रोग; पाने व कधी कधी फळांवर रिंग असलेले ठिपके पडतात."
+   },
+   "symptoms": {
+    "en": "Brown spots with concentric rings and a yellow border.",
+    "hi": "गोलाकार छल्लों वाले भूरे धब्बे और पीला किनारा।",
+    "mr": "वर्तुळाकार रिंग असलेले तपकिरी ठिपके आणि पिवळी किनार."
+   },
+   "sources": [
+    {
+     "title": "Compiled from general plant-pathology extension knowledge; REVIEW against a regional agricultural university / ICAR / state agriculture department source before release",
+     "status": "needs_expert_review"
+    }
+   ]
+  },
+  "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+   "category": "viral",
+   "cause": "Virus spread by whiteflies",
+   "name": {
+    "en": "Yellow Leaf Curl Virus",
+    "hi": "पीला पत्ती मोड़क विषाणु",
+    "mr": "पिवळा पर्णगुच्छ (लीफ कर्ल) विषाणू"
+   },
+   "description": {
+    "en": "A virus spread by whiteflies that stunts plants and curls leaves.",
+    "hi": "सफेद मक्खी से फैलने वाला विषाणु जो पौधों की वृद्धि रोकता और पत्तियाँ मोड़ता है।",
+    "mr": "पांढऱ्या माशीमुळे पसरणारा विषाणू; झाडांची वाढ खुंटते आणि पाने वळतात."
+   },
+   "symptoms": {
+    "en": "Upward curling, yellowing leaf edges, small leaves, stunted plant.",
+    "hi": "पत्तियाँ ऊपर की ओर मुड़ना, किनारों का पीलापन, छोटी पत्तियाँ, बौना पौधा।",
+    "mr": "पाने वरच्या बाजूस वळणे, कडा पिवळ्या, लहान पाने, झाड खुरटलेले."
+   },
+   "sources": [
+    {
+     "title": "Compiled from general plant-pathology extension knowledge; REVIEW against a regional agricultural university / ICAR / state agriculture department source before release",
+     "status": "needs_expert_review"
+    }
+   ]
+  },
+  "Tomato___Tomato_mosaic_virus": {
+   "category": "viral",
+   "cause": "Virus (Tomato mosaic virus), spread mechanically",
+   "name": {
+    "en": "Mosaic Virus",
+    "hi": "मोज़ेक विषाणु",
+    "mr": "मोझॅक विषाणू"
+   },
+   "description": {
+    "en": "A virus that spreads easily on hands, tools and plant sap.",
+    "hi": "विषाणु जो हाथों, औज़ारों और पौधे के रस से आसानी से फैलता है।",
+    "mr": "हात, अवजारे आणि झाडाच्या रसातून सहज पसरणारा विषाणू."
+   },
+   "symptoms": {
+    "en": "Mottled light and dark green patches, distorted or fern-like leaves.",
+    "hi": "हल्के-गहरे हरे चितकबरे धब्बे, विकृत या फर्न जैसी पत्तियाँ।",
+    "mr": "फिकट-गडद हिरवे ठिपके, विकृत किंवा नेचासारखी पाने."
+   },
+   "sources": [
+    {
+     "title": "Compiled from general plant-pathology extension knowledge; REVIEW against a regional agricultural university / ICAR / state agriculture department source before release",
+     "status": "needs_expert_review"
+    }
+   ]
+  },
+  "Tomato___Spider_mites_Two_spotted_spider_mite": {
+   "category": "pest",
+   "cause": "Pest (two-spotted spider mite)",
+   "name": {
+    "en": "Spider Mites",
+    "hi": "मकड़ी कीट (माइट)",
+    "mr": "कोळी (माइट्स)"
+   },
+   "description": {
+    "en": "Tiny sap-sucking mites that thrive in hot, dry conditions.",
+    "hi": "छोटे रस चूसने वाले कीट जो गर्म और शुष्क स्थिति में पनपते हैं।",
+    "mr": "लहान रस शोषक कोळी; उष्ण व कोरड्या हवामानात वाढतात."
+   },
+   "symptoms": {
+    "en": "Fine stippling or yellow speckles, bronzing, fine webbing on underside.",
+    "hi": "बारीक बिंदु या पीले छींटे, कांस्य रंग, निचली सतह पर महीन जाला।",
+    "mr": "बारीक ठिपके किंवा पिवळे चट्टे, तांबूस रंग, खालच्या बाजूस बारीक जाळे."
+   },
+   "sources": [
+    {
+     "title": "Compiled from general plant-pathology extension knowledge; REVIEW against a regional agricultural university / ICAR / state agriculture department source before release",
+     "status": "needs_expert_review"
+    }
+   ]
+  },
+  "Corn_maize___Common_rust": {
+   "category": "fungal",
+   "cause": "Fungus (Puccinia sorghi)",
+   "name": {
+    "en": "Common Rust",
+    "hi": "सामान्य रतुआ (रस्ट)",
+    "mr": "सामान्य तांबेरा"
+   },
+   "description": {
+    "en": "A fungal disease producing rust-coloured pustules on both leaf surfaces.",
+    "hi": "फफूंद जनित रोग जिसमें दोनों सतहों पर जंग जैसे रंग के उभार बनते हैं।",
+    "mr": "बुरशीजन्य रोग; पानाच्या दोन्ही बाजूंना गंजासारख्या रंगाचे फोड येतात."
+   },
+   "symptoms": {
+    "en": "Small oval brick-red to brown raised pustules scattered across the leaf.",
+    "hi": "पूरी पत्ती पर बिखरे छोटे अंडाकार ईंट-लाल से भूरे उभरे दाने।",
+    "mr": "पानावर विखुरलेले लहान अंडाकृती विटकरी-लाल ते तपकिरी फोड."
+   },
+   "sources": [
+    {
+     "title": "Compiled from general plant-pathology extension knowledge; REVIEW against a regional agricultural university / ICAR / state agriculture department source before release",
+     "status": "needs_expert_review"
+    }
+   ]
+  },
+  "Corn_maize___Northern_Leaf_Blight": {
+   "category": "fungal",
+   "cause": "Fungus (Exserohilum turcicum)",
+   "name": {
+    "en": "Northern Leaf Blight",
+    "hi": "उत्तरी पत्ती झुलसा",
+    "mr": "उत्तरेकडील पानकरपा"
+   },
+   "description": {
+    "en": "A fungal disease causing long lesions that can reduce the leaf area for photosynthesis.",
+    "hi": "फफूंद जनित रोग जिसमें लंबे घाव बनते हैं और प्रकाश संश्लेषण वाला पत्ती क्षेत्र घटता है।",
+    "mr": "बुरशीजन्य रोग; लांब जखमा होतात आणि प्रकाशसंश्लेषणाचे पानाचे क्षेत्र कमी होते."
+   },
+   "symptoms": {
+    "en": "Long cigar-shaped grey-green to tan lesions, often several centimetres long.",
+    "hi": "लंबे सिगार के आकार के धूसर-हरे से भूरे घाव, अक्सर कई सेंटीमीटर लंबे।",
+    "mr": "लांब सिगारच्या आकाराचे राखाडी-हिरवे ते तांबूस जखमा, अनेकदा काही सेंमी लांब."
+   },
+   "sources": [
+    {
+     "title": "Compiled from general plant-pathology extension knowledge; REVIEW against a regional agricultural university / ICAR / state agriculture department source before release",
+     "status": "needs_expert_review"
+    }
+   ]
+  },
+  "Corn_maize___Cercospora_leaf_spot_Gray_leaf_spot": {
+   "category": "fungal",
+   "cause": "Fungus (Cercospora zeae-maydis)",
+   "name": {
+    "en": "Gray Leaf Spot",
+    "hi": "धूसर पत्ती धब्बा",
+    "mr": "राखाडी पानावरील ठिपके"
+   },
+   "description": {
+    "en": "A fungal disease favoured by warm, humid weather that causes narrow lesions between leaf veins.",
+    "hi": "गर्म और नम मौसम में पनपने वाला फफूंद रोग जो शिराओं के बीच संकरे घाव बनाता है।",
+    "mr": "उष्ण व दमट हवामानात वाढणारा बुरशीजन्य रोग; शिरांमध्ये अरुंद जखमा."
+   },
+   "symptoms": {
+    "en": "Narrow rectangular tan to grey lesions running parallel to leaf veins.",
+    "hi": "शिराओं के समानांतर संकरे आयताकार भूरे-धूसर घाव।",
+    "mr": "शिरांना समांतर अरुंद आयताकृती तांबूस-राखाडी जखमा."
+   },
+   "sources": [
+    {
+     "title": "Compiled from general plant-pathology extension knowledge; REVIEW against a regional agricultural university / ICAR / state agriculture department source before release",
+     "status": "needs_expert_review"
+    }
+   ]
+  }
+ },
+ "monitoring": {
+  "en": [
+   "Re-check the plant in 3-5 days and compare symptoms.",
+   "Note whether new leaves are affected.",
+   "Scan again with a clear photo if symptoms change."
+  ],
+  "hi": [
+   "3-5 दिन बाद पौधे को दोबारा जाँचें और लक्षणों की तुलना करें।",
+   "देखें कि नई पत्तियाँ प्रभावित हो रही हैं या नहीं।",
+   "लक्षण बदलें तो साफ फोटो के साथ दोबारा स्कैन करें।"
+  ],
+  "mr": [
+   "३-५ दिवसांनी झाड पुन्हा तपासा आणि लक्षणांची तुलना करा.",
+   "नवीन पाने बाधित होत आहेत का ते पाहा.",
+   "लक्षणे बदलल्यास स्पष्ट फोटोसह पुन्हा स्कॅन करा."
+  ]
+ },
+ "consult_expert": {
+  "en": "Consult a local agriculture officer or Krishi Vigyan Kendra if symptoms spread quickly, affect many plants, or you are unsure of the cause.",
+  "hi": "यदि लक्षण तेज़ी से फैलें, कई पौधों को प्रभावित करें, या कारण स्पष्ट न हो तो स्थानीय कृषि अधिकारी या कृषि विज्ञान केंद्र से संपर्क करें।",
+  "mr": "लक्षणे वेगाने पसरत असल्यास, अनेक झाडांवर दिसत असल्यास किंवा कारण स्पष्ट नसल्यास स्थानिक कृषी अधिकारी किंवा कृषी विज्ञान केंद्राशी संपर्क साधा."
+ },
+ "high_severity_note": {
+  "en": "A large visible area appears affected. Seek local expert advice promptly.",
+  "hi": "पत्ती का बड़ा दृश्य भाग प्रभावित दिखता है। जल्द स्थानीय विशेषज्ञ की सलाह लें।",
+  "mr": "पानाचा मोठा दृश्य भाग बाधित दिसतो. लवकर स्थानिक तज्ज्ञांचा सल्ला घ्या."
+ }
+}

@@ -1,0 +1,15 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    ports: ["8000:8000"]
+    environment:
+      MODEL_DIR: /models
+      STORAGE_DIR: /data
+      # DATABASE_URL: postgresql+psycopg2://user:pass@db:5432/krishidrishti   (production option; add psycopg2-binary)
+    volumes:
+      - ./ml/models/current:/models:ro
+      - krishi_data:/data
+volumes:
+  krishi_data:

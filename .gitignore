@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.pytest_cache/
+.ruff_cache/
+# datasets & large artifacts (never commit)
+ml/data/raw/
+ml/data/train/
+ml/data/val/
+ml/data/test/
+ml/data/realworld/
+ml/models/*
+!ml/models/.gitkeep
+ml/reports/*
+!ml/reports/.gitkeep
+mlruns/
+backend/storage/
+*.keras
+*.h5
+*.tflite
+# flutter
+mobile/build/
+mobile/.dart_tool/

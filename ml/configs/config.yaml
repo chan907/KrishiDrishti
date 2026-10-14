@@ -1,0 +1,37 @@
+# Single source of configuration for the ML pipeline. Run all scripts from the repo root.
+seed: 42
+
+dataset:
+  name: PlantVillage
+  version: "plantvillage-color-v1"
+  raw_dir: ml/data/raw/plantvillage        # folder that contains class folders such as Tomato___Early_blight
+  split_root: ml/data                      # creates ml/data/train, ml/data/val, ml/data/test
+  # Crops are matched against the folder-name prefix BEFORE '___' (after normalisation).
+  crops: ["Tomato", "Potato", "Corn_maize"]
+  # Optional: restrict to specific normalised class ids. null = every class found for the crops.
+  include_classes: null
+  ratios: {train: 0.70, val: 0.15, test: 0.15}
+  near_duplicate_hamming: 4                # dHash bits; images closer than this are grouped (never split apart)
+  min_images_per_class: 50
+
+model:
+  input_size: 224
+  batch_size: 32
+  dropout: 0.3
+
+training:
+  epochs_head: 12
+  epochs_finetune: 12
+  lr_head: 0.001
+  lr_finetune: 0.00001
+  finetune_last_layers: 40
+  use_class_weights: true
+  early_stopping_patience: 5
+  reduce_lr_patience: 2
+
+uncertainty:
+  target_accepted_accuracy: 0.95           # used by calibrate_threshold.py (validation set only)
+
+severity:
+  # Application-defined categories (NOT an agronomic standard). Upper bounds in percent.
+  levels: [[10, "Mild"], [30, "Moderate"], [60, "High"], [100, "Severe"]]

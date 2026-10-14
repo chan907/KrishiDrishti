@@ -1,0 +1,31 @@
+name: CI
+on:
+  push: {branches: [main]}
+  pull_request:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11", cache: pip}
+      - name: Install
+        run: |
+          pip install -r requirements.txt
+      - name: Lint
+        run: ruff check core ml backend scripts
+      - name: Core unit tests
+        run: pytest core/tests -q
+      - name: ML pipeline tests (no pretrained downloads)
+        run: pytest ml/tests -q
+      - name: Backend tests
+        run: cd backend && pytest -q
+  docker:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build inference image (no training deps, model is mounted at runtime)
+        run: docker build -f backend/Dockerfile -t krishidrishti-api:ci .
+# NOTE: model training is intentionally NOT run here. Run training manually / in a separate
+# workflow_dispatch workflow on suitable hardware.
